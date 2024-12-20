@@ -1,11 +1,11 @@
 
-# Inventory System
+# 🎮 Inventory System
 
 ## Description du Projet
 
 Ce projet a été conçu durant ma deuxième année d'études dans le but de créer un système de gestion d'inventaire intégré à une boutique. Il permet au joueur principal d'acheter des objets disponibles dans un magasin et de gérer son inventaire en fonction de ses ressources et de son niveau. Le programme met en avant les pratiques liées à la programmation orientée objet en C++ et simule des interactions typiques d'un jeu d'aventure/RPG.
 
-## Fonctionnalités
+## 🛒 Fonctionnalités
 
 - **Gestion du Magasin** : Visualisation des objets disponibles avec leurs caractéristiques détaillées (force, défense, soins, niveau requis, prix).
 - **Achat d'Objets** : Le joueur peut acheter des objets s'il dispose de suffisamment d'argent et si le niveau requis est respecté.
@@ -13,7 +13,7 @@ Ce projet a été conçu durant ma deuxième année d'études dans le but de cr�
 - **Compatibilité avec le Niveau** : Vérification automatique si les objets dans l'inventaire peuvent ou non être équipés selon le niveau du personnage.
 - **Système Financier Simplifié** : Gestion des paiements et suivi de l'argent restant.
 
-## Structure de Code
+## 💡 Structure de Code
 
 Le projet repose sur une conception orientée objet, avec des classes définies comme suit :
 
@@ -24,7 +24,7 @@ Le projet repose sur une conception orientée objet, avec des classes définies 
   - `Armure` : Définit les objets de type armure, augmentant les capacités de défense.
   - `Talisman` : Définit les objets de type talisman, apportant des capacités de soin.
 
-## Exemple d'Exécution
+## 🎮 Exemple d'Exécution
 
 Lors de l'exécution, le programme affiche :
 
@@ -32,12 +32,12 @@ Lors de l'exécution, le programme affiche :
 2. Les articles achetés par le joueur, en tenant compte de l'argent disponible.
 3. Les objets ajoutés à l'inventaire avec validation du niveau pour permettre ou non leur utilisation.
 
-## Technologies Utilisées
+## 🛠️ Technologies Utilisées
 
 - **Langage** : C++
 - **Paradigme** : Programmation orientée objet
 
-## Instructions pour Compiler et Exécuter
+## 🧾 Instructions pour Compiler et Exécuter
 
 1. Clonez ce projet :
    ```bash
@@ -53,7 +53,7 @@ Lors de l'exécution, le programme affiche :
    ./inventory_system
    ```
 
-## Utilisation
+## 💡 Points forts du projet
 
 1. **Ajout d'objets au magasin** : Modifiez la fonction `main()` pour personnaliser les articles disponibles en magasin.
 2. **Personnalisation des achats** : Modifiez l'index des articles dans le tableau `IndexItemBuy` pour simuler les choix du joueur.
